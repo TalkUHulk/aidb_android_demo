@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScanFrameViewStyle">
+        <attr name="backGroundColor" format="color" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="scanLineWidth" format="float" />
+        <attr name="scanLineStartColor" format="color" />
+        <attr name="scanLineFinishColor" format="color" />
+        <attr name="scanDuration" format="integer" >100</attr>
+    </declare-styleable>
+</resources>

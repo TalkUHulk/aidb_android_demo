@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AiDB</string>
+    <string name="permissions_not_granted">Required permissions not granted by user.</string>
+    <string name="no_available_camera">No available cameras for usage.</string>
+    <string name="camera_selection_error">An error occurred while choosing a camera lens facing.</string>
+
+    <string name="cd_back">Back</string>
+    <string name="cd_comment">Comment</string>
+    <string name="cd_favourite">Favourite</string>
+
+    <string name="btn_backend">Backend</string>
+    <string name="btn_mode">Mode</string>
+
+    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>
+
+    <string name="msg_no_browser">No app found to open the url</string>
+    <string name="msg_unsupported_op">Unsupported operation</string>
+    <string name="dialog_seekbar_transition_time">Item transition time in millis</string>
+    <string name="Try">Try</string>
+    <string name="Error">Error</string>
+    <string name="Checking">Checking</string>
+
+
+</resources>

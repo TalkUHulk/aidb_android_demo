@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aidb_android_demo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+<!--        <item name="colorPrimaryVariant">@color/lightseagreen</item>-->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+<!--        <item name="colorSecondary">@color/turquoise</item>-->
+<!--        <item name="colorSecondaryVariant">@color/lightseagreen</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <style name="ShopTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        <item name="colorPrimaryDark">@android:color/white</item>-->
+<!--        <item name="colorAccent">@color/shopAccent</item>-->
+<!--    </style>-->
+
+    <style name="ClickableImageView">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+</resources>

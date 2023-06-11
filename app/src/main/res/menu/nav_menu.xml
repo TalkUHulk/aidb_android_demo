@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navGitHub"
+            android:title="GitHub"
+            android:icon="@drawable/github_logo" />
+        <item
+            android:id="@+id/navWasm"
+            android:icon="@drawable/wasm_logo"
+            android:title="Webassembly Demo" />
+        <item
+            android:id="@+id/navMail"
+            android:icon="@drawable/nav_mail"
+            android:title="Contact" />
+    </group>
+</menu>
