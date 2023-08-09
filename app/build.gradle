@@ -15,7 +15,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             ndkBuild {
-                cppFlags "-std=c++11", "-fexceptions"
+                cppFlags "-std=c++11", "-fexceptions", "-fuse-ld=lld"
                 arguments  "APP_OPTIM=release", "NDK_DEBUG=0", "-DANDROID_STL=c++_shared"
                 abiFilters "arm64-v8a"
             }

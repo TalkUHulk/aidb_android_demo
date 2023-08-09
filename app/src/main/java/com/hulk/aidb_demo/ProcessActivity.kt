@@ -68,8 +68,12 @@ class ProcessActivity : AppCompatActivity(){
         // 加载生成的动态链接库
         // Used to load the 'native-lib' library on application startup.
         init {
-            System.loadLibrary("aidb")
+            System.loadLibrary("AiDB")
             System.loadLibrary("MNN");
+//            System.loadLibrary("openvino");
+//            System.loadLibrary("openvino_arm_cpu_plugin");
+//            System.loadLibrary("openvino_ir_frontend")
+
             try {
                 System.loadLibrary("MNN_CL")
                 System.loadLibrary("MNN_Express")

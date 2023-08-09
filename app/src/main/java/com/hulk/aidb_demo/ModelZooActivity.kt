@@ -161,7 +161,6 @@ class ModelZooActivity : AppCompatActivity(), OnItemChangedListener<ModelZooAdap
             }
         }
 //        val headerView: View = navigationView.getHeaderView(0)
-
         val textViewJump: TextView = navigationView.getHeaderView(0).findViewById(AR.id.userText)
         val jumpingBeans = JumpingBeans.with(textViewJump)
             .makeTextJump(0, textViewJump.getText().toString().indexOf(' '))
@@ -196,6 +195,8 @@ class ModelZooActivity : AppCompatActivity(), OnItemChangedListener<ModelZooAdap
                 copyAssetAndWrite("models.zip", cacheDir, assets)
                 val modelsZipPath = File(cacheDir, "models.zip")
                 unzip(modelsZipPath.absolutePath, obbDir.absolutePath)
+
+                copyAssetAndWrite("libopenvino.so", cacheDir, assets)
 
                 ready = true
 
