@@ -61,9 +61,12 @@ class CaptureActivity : AppCompatActivity() {
         val bitmapBinder = bundle!!.getBinder("image") as BitmapBinder?
         val bitmap: Bitmap = bitmapBinder!!.bitmap
 
+        val mirror = intent.getBooleanExtra("mirror", false)
+
         val imageViewCapture: ImageView = findViewById(R.id.imageViewCapture)
 //        imageViewCapture.setImageBitmap(VisualAiDB.mirrorBitmap(bitmap))
-        imageViewCapture.setImageBitmap(bitmap)
+
+        imageViewCapture.setImageBitmap(if(mirror) VisualAiDB.mirrorBitmap(bitmap) else bitmap)
 
         mScanFrameView.visibility = View.VISIBLE
         mScanFrameView.startScan()
@@ -76,7 +79,7 @@ class CaptureActivity : AppCompatActivity() {
             costTime = measureTimeMillis {
                 aidbMeta = aidbForward(bitmap)
             }
-            val mirror = intent.getBooleanExtra("mirror", false)
+
 
             visualBitmap = VisualAiDB.visual(
                 this,

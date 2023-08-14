@@ -84,7 +84,34 @@ object ModelZoo{
         "ncnn/scrfd/scrfd_500m_kps_simplify.param" to "19c86968ea94824ca9153d5e7fd937d7",
         "ncnn/scrfd/scrfd_500m_kps_simplify.bin" to "765468e615f52959195a828893d17cda",
         "ncnn/movenet/movenet-simplify.param" to "4bc7d64091218965704b343b4e870a37",
-        "ncnn/movenet/movenet-simplify.bin" to "59b74e580ddf4ffe08980a4807bb90a5"
+        "ncnn/movenet/movenet-simplify.bin" to "59b74e580ddf4ffe08980a4807bb90a5",
+        "openvino/scrfd/scrfd_500m_kps_simplify.bin" to "2647add44f477b46d2ce4cd71fd20131",
+        "openvino/scrfd/scrfd_500m_kps_simplify.xml" to "8e3b53fea530296d33fffa5761f5ca87",
+        "openvino/pfpld/pfpld_kps98_simplify.bin" to "f4f885c8ebb6867c8e2e6724f12acff7",
+        "openvino/pfpld/pfpld_kps98_simplify.xml" to "fad07ca0b054ce4c25121f5632df2df0",
+        "openvino/3ddfav2/3ddfa_v2_mb05_bfm_head_base_simplify.bin" to "37cb59b81d3c2051a2d8f258bf6dbbfe",
+        "openvino/3ddfav2/3ddfa_v2_mb05_bfm_head_base_simplify.xml" to "a6914e093152ad97ab70c8631364d7b0",
+        "openvino/3ddfav2/3ddfa_v2_mb05_bfm_head_dense_simplify.bin" to "97b29bb77ca175f3da7fc6b76e1d08d1",
+        "openvino/3ddfav2/3ddfa_v2_mb05_bfm_head_dense_simplify.xml" to "b0a0f5e5c92af9248e83b0be1a4b26cb",
+        "openvino/yolox/yolox_nano.bin" to "1b094df1e7fea592d2e208f5c318e811",
+        "openvino/yolox/yolox_nano.xml" to "af0842b09ac3a4af043ab60c5681966a",
+        "openvino/yolov7/yolov7-tiny.bin" to "3a7d04ee3fef401236d4014e61d5eb82",
+        "openvino/yolov7/yolov7-tiny.xml" to "a298f55ecb865b175d31b46ffaa177b2",
+        "openvino/yolov8/yolov8n.bin" to "0ac70a8a016ad043d74b8b8c68638067",
+        "openvino/yolov8/yolov8n.xml" to "dae638e86ce68fdcc75afa1b3a6c6522",
+        "openvino/bisenet/face-parsing-BiSeNet-simplify.bin" to "f8d25590f552f66b672c22d99cfa3fee",
+        "openvino/bisenet/face-parsing-BiSeNet-simplify.xml" to "1b7cd9d20700f364ae1d340d8dd39e7d",
+        "openvino/movenet/movenet-simplify.bin" to "62b15f317f6d8abbe19f55a5c2c8a79d",
+        "openvino/movenet/movenet-simplify.xml" to "0d5d1e5ea697a42021cc178e62a41730",
+        "openvino/mobilevit/MobileViT_XXS.bin" to "33452686d42cdaaf7e228cf547ea1e74",
+        "openvino/mobilevit/MobileViT_XXS.xml" to "46228b684559470eeacfd8c2f5d26f60",
+        "openvino/ppocr/ch_ppocr_rec_v3_sim.bin" to "fa3a87befa3dc46c3da829271dbcf1dd",
+        "openvino/ppocr/ch_ppocr_rec_v3_sim.xml" to "a0d9c3d812bf9b1b106779cff9274a3e",
+        "openvino/ppocr/ch_ppocr_det_v3_sim.bin" to "e9a5c09d65e8e9eb6fe6ef4c38336941",
+        "openvino/ppocr/ch_ppocr_det_v3_sim.xml" to "3fd33e97184bcf859ac53bc39bf29d81",
+        "openvino/ppocr/ch_ppocr_mobile_v2.0_cls_sim.bin" to "6fbfc1cb5c998d72a1ae00b4ccc180d6",
+        "openvino/ppocr/ch_ppocr_mobile_v2.0_cls_sim.xml" to "0a95a6ddad76b1ba3a53d8e2687950a0"
+
     )
 
     val backend = mapOf(
@@ -120,14 +147,14 @@ object ModelZoo{
     0 to listOf(1, 2, 3, 4, 5, 6),
     1 to listOf(1, 2, 3, 4, 5, 6),
     2 to listOf(1, 2, 3, 4, 5, 6),
-    3 to listOf(1, 2, 3, 4, 6),
-    4 to listOf(1, 2, 3, 4, 6),
-    5 to listOf(1, 2, 3, 4, 6),
-    6 to listOf(1, 2, 3, 4, 6),
-    7 to listOf(1, 2, 3, 4, 6),
-    8 to listOf(1, 2, 3, 4, 6),
-    9 to listOf(1, 2),
-    10 to listOf(1, 2, 3, 6)
+    3 to listOf(1, 2, 3, 4, 5, 6),
+    4 to listOf(1, 2, 3, 4, 5, 6),
+    5 to listOf(1, 2, 3, 4, 5, 6),
+    6 to listOf(1, 2, 3, 4, 5, 6),
+    7 to listOf(1, 2, 3, 4, 5, 6),
+    8 to listOf(1, 2, 3, 4, 5, 6),
+    9 to listOf(1, 2, 5),
+    10 to listOf(1, 2, 3, 5, 6)
     )
 
     fun getData(): List<Model> {

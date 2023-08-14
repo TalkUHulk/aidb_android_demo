@@ -70,9 +70,8 @@ class ProcessActivity : AppCompatActivity(){
         init {
             System.loadLibrary("AiDB")
             System.loadLibrary("MNN");
-//            System.loadLibrary("openvino");
-//            System.loadLibrary("openvino_arm_cpu_plugin");
-//            System.loadLibrary("openvino_ir_frontend")
+            System.loadLibrary("openvino");
+
 
             try {
                 System.loadLibrary("MNN_CL")

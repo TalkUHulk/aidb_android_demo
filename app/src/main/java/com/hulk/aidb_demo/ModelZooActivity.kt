@@ -196,20 +196,19 @@ class ModelZooActivity : AppCompatActivity(), OnItemChangedListener<ModelZooAdap
                 val modelsZipPath = File(cacheDir, "models.zip")
                 unzip(modelsZipPath.absolutePath, obbDir.absolutePath)
 
-                copyAssetAndWrite("libopenvino.so", cacheDir, assets)
-
                 ready = true
 
                 for ((model, md5) in ModelZoo.models_md5){
                     val modelPath = File(File(obbDir, "models"), model)
                     if(md5 != getFileMD5(modelPath)){
-                        Log.d("==============@@@@@@@@", "${modelPath.absolutePath} ${getFileMD5(modelPath)} ${md5}")
+                        Log.d("MD5 Error", "${modelPath.absolutePath} ${getFileMD5(modelPath)} ${md5}")
                         ready = false
                         break
                     }
                 }
 
             }
+
 
             val msg = Message()
             msg.what = if(ready) 100 else -1

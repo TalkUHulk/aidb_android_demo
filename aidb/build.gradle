@@ -43,8 +43,8 @@ android {
         jvmTarget = '1.8'
     }
     namespace 'com.hulk.aidb'
-    ndkVersion '21.4.7075529'
-    buildToolsVersion '30.0.3'
+    ndkVersion '25.1.8937393'
+    buildToolsVersion '33.0.0'
 }
 
 dependencies {
