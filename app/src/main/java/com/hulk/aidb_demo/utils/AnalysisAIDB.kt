@@ -39,7 +39,7 @@ internal class AnalysisAIDB(
             aidbMeta = forwardCallback(rotateBitmap)
         }
 //        if(aidbMeta.error_code != 0) return
-        Log.d("TimeCost", "======>>>${time}")
+//        Log.d("TimeCost", "======>>>${time}")
         val listener = listener
         
         VisualAiDB.reMap(previewWidth, previewHeight, isFrontLens, rotation, imageProxy, aidbMeta)
