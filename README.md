@@ -1,6 +1,15 @@
-## aidb-android-demo
+# aidb-android-demo
 
 AiDB android demo.
+
+<p align="center">
+ <img src="./doc/android.gif"             width="120px"/>
+ <img src="./doc/android_front_base.gif"  width="120px"/>
+ <img src="./doc/android_front_dense.gif" width="120px"/>
+ <img src="./doc/android_yolox.gif"       width="120px"/>
+ <img src="./doc/android_ocr.gif"         width="120px"/>
+<p align="center">
+
 
 ## Tested Environment
 
