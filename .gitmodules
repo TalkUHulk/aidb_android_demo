@@ -1,3 +1,4 @@
 [submodule "aidb/src/main/cpp"]
 	path = aidb/src/main/cpp
 	url = https://github.com/TalkUHulk/ai.deploy.box.git
+    branch = 1.1.0
