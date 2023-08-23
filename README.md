@@ -3,11 +3,11 @@
 AiDB android demo.
 
 <p align="center">
- <img src="./doc/android.gif"             height="213px"/>
+ <img src="./doc/android.gif"             height="228px"/>
  <img src="./doc/android_front_base.gif"  width="128px"/>
  <img src="./doc/android_front_dense.gif" width="128px"/>
  <img src="./doc/android_ocr.gif"         width="128px"/>
- <img src="./doc/android_yolox.gif"       height="213px"/>
+ <img src="./doc/android_yolox.gif"       height="228px"/>
 <p align="center">
 
 
