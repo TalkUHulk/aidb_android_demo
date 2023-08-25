@@ -1,6 +1,6 @@
 # aidb-android-demo
 
-AiDB android demo.
+[AiDB](https://github.com/TalkUHulk/ai.deploy.box.git) android demo.
 
 <p align="center">
  <img src="./doc/android.gif"             height="228px"/>
