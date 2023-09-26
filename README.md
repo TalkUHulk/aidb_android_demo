@@ -24,8 +24,8 @@
 git clone --recurse-submodules --shallow-submodules https://github.com/TalkUHulk/aidb_android_demo.git
 ```
 
-* unzip [arm64-v8a.zip](https://github.com/TalkUHulk/aidb_android_demo/releases/download/v1.0/arm64-v8a.zip) and place it in app/libs
+* unzip [arm64-v8a.zip](https://github.com/TalkUHulk/aidb_android_demo/releases) and place it in app/libs
 
-* place [config.zip](https://github.com/TalkUHulk/aidb_android_demo/releases/download/v1.0/config.zip) and [models.zip](https://github.com/TalkUHulk/aidb_android_demo/releases/download/v1.0/models.zip) in [assets](app/src/main/assets). 
+* place [config.zip](https://github.com/TalkUHulk/aidb_android_demo/releases) and [models.zip](https://github.com/TalkUHulk/aidb_android_demo/releases) in [assets](app/src/main/assets). 
 
 
